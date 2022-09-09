@@ -1,4 +1,4 @@
-mod(function test_Script_3()
+function test_Script_3()
 
 % Create Time Vector
 tVec=0:0.025:5;
