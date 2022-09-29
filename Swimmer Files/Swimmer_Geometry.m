@@ -246,7 +246,7 @@ for i=2:length(xLag)
     y2=yLag(i-1);
     len=len+sqrt((x2-x1)^2 +(y2-y1)^2);
 end
-len
+len %displays length of swimmer in console
 ms = 34;
 plot(xLag,yLag,'.','MarkerSize',ms); hold on; 
 plot(xLag+L/2,yLag2,'r.','MarkerSize',ms); hold on; 
