@@ -97,7 +97,7 @@ t = rem(current_time,period);      % Current time in simulation ( 'modular arith
     
     end
     for kk=2:length(xP1)
-        xP1(kk)=xP1(kk-1)+sqrt((1.4297/(length(xP1)-1))^2 - (yPts(kk)-yPts(kk-1))^2);
+        xP1(kk)=xP1(kk-1)+sqrt((1.4297/(length(xP1)-1))^2 - (yPts(kk)-yPts(kk-1))^2); %1.4297 is the length of swimmer obtained from the swimmer geometry file.
     end
 
 %
